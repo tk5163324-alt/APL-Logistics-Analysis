@@ -1,0 +1,16 @@
+APL LOGISTICS ANALYSIS — START HERE
+
+1. Extract this ZIP file.
+2. Open the extracted APL-Logistics-Analysis folder in VS Code.
+3. Open Terminal > New Terminal.
+4. Run:
+   python -m venv .venv
+   .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+   .\.venv\Scripts\python.exe -m streamlit run app.py
+5. Open the local URL printed in the terminal (normally http://localhost:8501).
+
+To generate summary CSVs:
+   .\.venv\Scripts\python.exe analysis.py
+
+The original supplied CSV is in data/APL_Logistics.csv.
+Read README.md for full details and documented assumptions.
